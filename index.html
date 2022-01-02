@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Setting Up A Grid</title>
+</head>
+<body>
+
+    <header>
+        <div class="headContainer">
+            <h1 class="headTitle">The CSS Grid</h1>
+                <div class="navWrapper">
+                    <nav>
+                        <div class="navLinks">
+                            <div class="mainLink_wrapper">
+                                <a href="#" class="mainLinks">Home</a>
+                                <a href="#" class="mainLinks">Home</a>
+                                <a href="#" class="mainLinks">Home</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+        </div>       
+    </header>
+
+    <main>
+        <div class="main-container">
+
+            <section class="sectionHead">
+                <div class="sectionHead_wrapper">
+                    <h2>How to Setup A Grid</h2>
+                    <p class="temp-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quaerat voluptas animi nulla magnam necessitatibus veniam omnis corporis amet odit quia repellat impedit aperiam, soluta asperiores maiores quos ipsam sapiente, ipsa doloribus dolore laborum quo.</p>
+                </div>
+            </section>
+            <section class="myGrid">
+                <div class="my-grid-container">
+
+                     <div class="my-first-grid">
+                         <div class="grid-item-1">1</div>
+                         <div class="grid-item-2">2</div>
+                         <div class="grid-item-3">3</div>
+                         <div class="grid-item-4">4</div>
+                         <div class="grid-item-5">5</div>
+                     </div>
+
+                     <button class="btn-fir-grid">Information About Section</button>
+                        <article class="firstGrid-desc">
+                            <p class="comentHead-section">this comment box, I will do my best to try to explain as best as I can all of the options
+                            we have at our disposole be hind the sceen.
+                            </p>
+                            <p>
+                            So we started this off by creating a simple grid using divs in the markup to represent items.
+                            Then we set the playing field for the grid by adding the <i>display:grid</i> syntax to the thee main container.
+                            After that we we give the items in the grid shape by adding the syntaxes <i>and grid-template-columns</i>
+                            to the container. The is a section for inline-grid, but I don't think I did that right
+                            based on how I have thee container set up. 
+                            </p>
+                            <p>
+                            Next we tackle the concept of explicit and implict grid concept. explicit is the grid you structure
+                            with your CSS when setting up the grid. Implicit is is the grid that comes after. So basically implicit
+                            is anything else you add to the grid structure. We can specif how we want the un-intended
+                            content to act when the are created, we do this by adding the grid-auto-rows and grid-auto-columns.
+                            </p>
+                        </article>
+                </div>
+            </section>
+
+            <br>
+            
+        </div>
+    </main>
+    
+</body>
+</html>
