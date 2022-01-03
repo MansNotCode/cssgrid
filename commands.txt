@@ -46,3 +46,4 @@ honorable mentions
 []git stash
     list
     clear
+    ll - list 
