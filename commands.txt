@@ -1,0 +1,48 @@
+INITIALIZING:
+    []git init
+        - git remote add origin <repo url>
+        - git config --global user.email "<github email>"
+        - git config --global user.name "<github username>"
+        - git config --global credential.helper cache
+
+    []git clone <repo url>
+        - clones repo into folder named after the repo named
+        - use (git clone <repo url> .) to clone repo contents without creating folder(requires empty folder)
+
+VISIBILITY:
+    []git status
+        - displays files that have been changed
+    
+    []git diff
+        - shows changes in a file
+
+    []git log
+        - displays list of previous commits
+
+SWITCHING BRANCHES:
+    []git checkout
+        - switches to different branch(git checkout <branch name>)
+        - use (git checkout -b <branch name>) to create new branch and switch to it right away.
+        - commit hashes can also be checked out like a branch (git checkout <commit hash>)
+
+PUSHING CHANGES TO REMOTE:
+    []git add (add all, or selective add)
+        - add all changes to "staging" area (git add -A)
+        - individual files can also be copied in the (git status) display and added to "staging" area individually (git add <unstaged file>) 
+
+    []git commit -m
+        - commits changes(makes them ready to be pushed to github) "-m" is for writing a message for the commit. Can't commit without doing this.
+        - git commit -m "<commit message>"
+
+    []git push
+        - pushes changes that have been committed, to github
+
+PULLING CHANGES FROM REMOTE:
+    []git pull
+        - pulls changes from github to local working repo(folder)
+_______________________________________
+honorable mentions
+
+[]git stash
+    list
+    clear
